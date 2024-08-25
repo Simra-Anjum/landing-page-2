@@ -1,0 +1,126 @@
+*{ 
+    margin:0;
+    padding:0;
+    
+}
+
+.background-image{
+    background-image: url('./katty.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    color: white;
+    
+    
+    
+    
+}
+.logo_container{
+    margin-left: 2%;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    color: palevioletred;
+    display: content;
+  
+   
+    
+    
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 400px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-weight: 700;
+    font-size:14px;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+.nav_bar a sup{
+    color: red;
+}
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.action_bar{ 
+    display: flex;
+    min-width: 200px;
+    justify-content: space-around;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_icon{
+    height: 2px;
+}
+ .content{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+.btn button{
+    border: none;
+    justify-content: center;
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 15%;
+    font-weight: 300;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn :hover{
+    background-color: palevioletred;
+    
+}
